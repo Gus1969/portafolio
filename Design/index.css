@@ -6,6 +6,7 @@ body {
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   background-color: #000;
   color: #fff;
+  width: 100vw;
 }
 .container {
   margin: 20px 380px;
@@ -195,4 +196,29 @@ aside {
 .card-holder h2 a {
   text-decoration: none;
   color: #fff;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 200px;
+  background-color: gray;
+}
+main .first {
+  width: 30%;
+  padding: 10px 0 0 200px;
+}
+.first h3 {
+  font-size: 25px;
+}
+.first p {
+  font-size: 14px;
+}
+main .second {
+  width: 35%;
+  padding: 10px 200px 0 0;
+}
+.second p {
+  font-size: 14px;
 }
